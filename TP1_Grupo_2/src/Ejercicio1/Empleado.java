@@ -13,6 +13,8 @@ public class Empleado {
 	
 	//constructores
 	
+	public Empleado()
+	{}
 	
 	//gets y sets
 	
