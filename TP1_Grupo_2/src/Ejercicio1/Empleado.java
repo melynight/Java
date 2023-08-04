@@ -8,15 +8,10 @@ public class Empleado {
 	private String nombre;
 	private int edad;
 	
+	
 
 	
 	//constructores
-	
-	
-	public Empleado () {
-		this.id = 0;
-		this.nombre = "Sin nombre";
-	}
 	
 	
 	//gets y sets
