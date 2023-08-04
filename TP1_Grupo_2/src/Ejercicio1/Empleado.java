@@ -13,7 +13,10 @@ public class Empleado {
 	//constructores
 	
 	
-	
+	public Empleado () {
+		this.id = 0;
+		this.nombre = "Sin nombre";
+	}
 	
 	
 	//gets y sets
