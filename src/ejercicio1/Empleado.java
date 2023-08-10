@@ -1,4 +1,4 @@
-package Ejercicio1;
+package ejercicio1;
 
 public class Empleado {
 	//atributos
@@ -8,14 +8,12 @@ public class Empleado {
 	private static int cont=999;
 	
 	//constructores
-	
 	public Empleado(){
 		cont++;
 		this.id = cont;
 		this.nombre="sin nombre";
 		this.edad=99;
 	}
-
 	public Empleado(String nombre,int edad){
 		cont++;
 		this.id = cont;
@@ -44,4 +42,13 @@ public class Empleado {
 	}
 	
 	//metodos
+	public static int devuelveProximoID()
+	{
+		return cont+1;
+	}
+	
+	@Override
+	public String toString() {
+		return "Empleado ID=" + id + ", NOMBRE=" + nombre + ", EDAD=" + edad;
+	}
 }
