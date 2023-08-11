@@ -18,7 +18,7 @@ public class Principal {
             
         }
 		
-		System.out.println("El siguiente ID es : " + empleados[4].devuelveProximoID());
+		System.out.println("El siguiente ID es : " + Empleado.devuelveProximoID());
 		
 								}
 					
